@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="shortcut icon" href="../img/icon.png">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<title>Sadena</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sadena</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><img src="../img/navbar-like2.png" alt=""> <span class="sr-only">(current)</span></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right col-lg-6">
+                
+        <li class="col-lg-4"><a href="#">Shipping <span class="glyphicon glyphicon-car" aria-hidden="true"></span></a></li>
+        <li class="col-lg-4"><a href="basket.html">Basket</a></li>
+        <li class="col-lg-4"><a href="support.html">Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<div id="showcase">
+		<div class="container">
+			<div class="row">
+				<div class="top-info">
+					<a href="index.html">Sadena</a>
+				</div>	
+
+				<div class="top-navbar">
+					<nav>
+						<ul class="topmenu">
+							<li><a href="index.html">Clothing</a>
+								<ul class="submenu">
+									<li><a href="#">Shirt's</a></li>
+									<li><a href="#">Blouses</a></li>
+									<li><a href="#">More..</a></li>
+									<li><a href="#">More..</a></li>
+								</ul>
+							</li>
+							<li><a href="pants.html">Pants</a>
+								<ul class="submenu">
+									<li><a href="">Jeans</a></li>
+									<li><a href="">Shorts</a></li>
+									<li><a href="">More..</a></li>
+									<li><a href="">More..</a></li>
+								</ul>
+							</li>
+							<li><a href="shoes.html">SHOES</a>
+								<ul class="submenu">
+									<li><a href="">sneakers</a></li>
+									<li><a href="">Author</a></li>
+									<li><a href="">More..</a></li>
+									<li><a href="">More..</a></li>
+								</ul>
+							</li>
+
+							<li><a href="accessories.html">Acessories</a></li>
+
+						</ul>
+					</nav>
+					<hr>
+				</div>
+			</div>
+
+			<div class="content">
+
+				<h2><div class="btn-group">
+					<button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Sort By: <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><a id="price">Price</a></li>
+						<li><a id="date">Date added</a></li>
+					</ul>
+				</div>
+				<div class="btn-group">
+					<a href="add-product.html">Add Product</a>
+				</div>
+			</h2>
+				<div id="clothes">
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<span class="logo">Sadena</span>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<ul class="menu">
+					<span>Menu</span>    
+					<li>
+						<a href="#">Home</a>
+					</li>
+
+					<li>
+						<a href="#">About</a>
+					</li>
+
+					<li>
+						<a href="#">Blog</a>
+					</li>
+
+					<li>
+						<a href="#">Gallery </a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<ul class="address">
+					<span>Contact</span>       
+					<li>
+						<i class="fa fa-phone" aria-hidden="true"></i> <a href="#">Phone</a>
+					</li>
+					<li>
+						<i class="fa fa-map-marker" aria-hidden="true"></i> <a href="#">Adress</a>
+					</li> 
+					<li>
+						<i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">Email</a>
+					</li> 
+				</ul>
+			</div>
+
+
+		</div> 
+	</div>
+</footer>
+<script src="./js/main.js"></script>
+<script type="text/javascript">
+	engine.add('black-shirt.jpg', '13', '2018-02-05')
+	engine.add('pink-shirt.jpg', '35', '2018-07-07')
+	engine.add('sweatshirt.jpg', '18', '2018-07-03')
+	engine.add('light-denim.jpg', '18', '2018-02-05')
+	engine.add('black-blouse.jpg', '18', '2018-06-03')
+	engine.add('red-shirt.jpg', '16', '2018-06-03')
+
+	engine.render(document.getElementById('clothes'))
+</script>
+<script src="./js/jQuery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
+
